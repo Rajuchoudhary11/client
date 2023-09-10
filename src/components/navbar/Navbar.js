@@ -35,7 +35,7 @@ function Navbar() {
         <div className='Navbar'>
           
             <div className='container'>
-                <h2 className='banner hover-link' onClick={() => navigate('/')} >Socal Media</h2>
+                <h2 className='banner hover-link'style={{color:'darkblue'}} onClick={() => navigate('/')} >SociaSphere</h2>
                 <div className='right-side'>
                     <div className='profile hover-link' onClick={() => navigate(`/profile/${myProfile?._id }`)} >
 
